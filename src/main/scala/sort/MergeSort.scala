@@ -24,7 +24,7 @@ object MergeSort {
 
         var mid = (init + end) / 2
         divideArray(array, init, mid)
-        divideArray(array, mid, end)
+        divideArray(array, mid+1, end)
         mergeArray(array, init, mid, end)
 
       } else {
